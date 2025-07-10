@@ -1,27 +1,26 @@
 body {
-    background-color: #F8F8F2;
+  background-color: #f8f8f2;
 }
 
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Playpen Sans", sans-serif;
 }
-h1{
-    color:#707070;
+
+h1 {
+  color: #707070;
 }
 .cont-head-foot {
-    background-color: #00000003;
-    width: 100%;
-    padding: 10px;
-    margin: 0%;
+  background-color: #00000003;
+  width: 100%;
+  padding: 10px;
+  margin: 0%;
 }
-.main-cont{
-    background-color:ghostwhite ;
-    border-radius: 40px;
-    overflow: hidden;
-    width: 50%;
+.main-cont {
+  background-color: ghostwhite;
+  border-radius: 40px;
+  overflow: hidden;
+  width: 50%;
 }
-
-
 
 /* ESTILO CHECKBOX */
 
@@ -97,12 +96,10 @@ h1{
 
 /* PRUEBA */
 
-
-.cbx2:checked + .check svg + .tachado{
- text-decoration: line-through;
- color: #70707096
+.cbx2:checked + .check svg + .tachado {
+  text-decoration: line-through;
+  color: #70707096;
 }
-
 
 /* ESTILO DEL INPUT */
 .search {
@@ -121,12 +118,13 @@ h1{
   padding: 0.7rem 1rem;
   border-radius: 30px;
   width: 12em;
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 0.5s;
   margin-right: -2rem;
   width: 100%;
 }
 
-.search__input:hover, .search__input:focus {
+.search__input:hover,
+.search__input:focus {
   box-shadow: 0 0 1em #00000013;
 }
 
@@ -147,7 +145,7 @@ h1{
 .search__button {
   border: none;
   background-color: #f4f2f2;
-  margin-top: .1em;
+  margin-top: 0.1em;
 }
 
 .search__button:hover {
@@ -194,6 +192,6 @@ h1{
   transform: scale(0.96) rotate(-1deg);
 }
 
-.hover-me:hover .trash-svg{
-  display:block;
+.hover-me:hover .trash-svg {
+  display: block;
 }
